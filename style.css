@@ -1,0 +1,160 @@
+body{
+  font-family: Jost, Inter, Roboto, sans-serif;
+  font-style: normal;
+  font-size: 1.25rem;
+  letter-spacing: 0.05vh;
+  background-color: #050505; 
+}
+h1,h2{
+  font-family: 'Praise', cursive;
+  color: #050505;
+  font-size: 62px;
+}
+a{
+  text-decoration: none;
+}
+.btn{ 
+  border: none;
+  background-color: #050505;
+}
+.btn:hover{ 
+  background-color: #202033;
+}
+
+/* custom css */
+.navbar{
+  font-family: Inter, Roboto, sans-serif;
+  font-size: initial;
+  background:#050505;
+  color: #FFF;
+  font-weight: 300;
+}
+.navbar-brand{
+  font-size: x-large;
+  font-weight: bolder;
+}
+.navbar .navbar-toggler{
+  border: none;
+}
+
+/* feature section */
+#featureSection{ 
+  background-color: #050505;
+  color: #05FFFF;
+  padding-top: 150px;
+  padding-bottom: 150px;
+  min-height: auto;
+}
+@media screen and (max-width: 500px) {
+  #featureSection{ 
+    padding-top: 70px;
+    padding-bottom: 70px;
+    min-height: auto;
+  }
+}
+@media screen and (max-width: 500px) {
+  #about{
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+}
+#about h1{
+  font-size: 100px;
+  color: #E6E7E8;
+}
+@media screen and (max-width: 992px) {
+  #about h1{
+    font-size: 62px;
+  }
+}
+@media screen and (max-width: 500px) {
+  #about h1{
+    font-size: 48px;
+    margin-bottom: 0px;
+  }
+}
+#about .lead{  
+  color: #616161;
+  font-style: italic;
+  font-size: xx-large;
+}
+@media screen and (max-width: 500px) {
+  #about .lead{  
+    font-size: x-large;
+  }
+}
+
+/* main */
+main{
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-color: #FFF;
+}
+main a{
+  color: #FFF;
+  text-decoration: none;
+}
+main a:hover{
+  color: #FFF;
+}
+
+/* KetoSauce */
+#youtube{
+  margin-bottom: 100px;
+}
+#youtubeDescription{
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+/* Blog */
+#blog{
+  margin-bottom: 50px;
+}
+#blogDescription{
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+/* Album */
+#album{
+  padding-top: 50px;
+}
+#albumDescription{
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+
+/* footer */
+footer{
+  background-color: #050505;
+  color: #FFF;
+  text-align: center;
+}
+
+/* contact */
+footer #contact{
+  background-color: #05FFFF;
+  color: #050505;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+/* footnote */
+footer #footnote{
+  font-family: Inter, Roboto, sans-serif;
+  font-size: small;
+  padding-top: 15px;
+}
+#footnote #hosting{
+  font-weight: 200;
+  opacity: 0.6;
+}
+#footnote #hosting a{
+  color: #05FFFF;
+  text-decoration: none;
+}
+#footnote #hosting a:hover{
+  color: #FFF;
+}
